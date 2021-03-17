@@ -11,7 +11,7 @@ body
   background-image: -moz-linear-gradient(top, lightgreen, lightblue);
   background-image: -ms-linear-gradient(top, lightgreen, lightblue);
   background-image: -o-linear-gradient(top, lightgreen, lightblue);
-  background-image: linear-gradient(top, lightgreen, lightblue); 
+  background-image: linear-gradient(to top, lightgreen, lightblue); 
 }
 
 h1
