@@ -13,28 +13,18 @@ function validateForm() {
   
         if (firstname.value == "") { 
             window.alert("Please enter your first name."); 
-            name.focus(); 
-            return false; 
         } 
         if (lastname.value == "") { 
             window.alert("Please enter your last name."); 
-            name.focus(); 
-            return false; 
         }
         if (phone.value == "") { 
-            window.alert( 
-              "Please enter your telephone number."); 
-            phone.focus(); 
-            return false; 
+            window.alert("Please enter your telephone number."); 
+
         } 
         if (email.value == "") { 
-            window.alert( 
-              "Please enter a valid e-mail address."); 
-            email.focus(); 
-            return false; 
+            window.alert("Please enter a valid e-mail address."); 
         }   
         if (date.value == "") { 
-            window.alert("Please enter your date of birth"); 
-            password.focus(); 
-            return false; 
-        } }
+            window.alert("Please enter your date of birth");
+        } 
+}
