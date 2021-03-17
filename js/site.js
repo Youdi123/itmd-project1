@@ -5,10 +5,10 @@ jQuery(function($) {
 });
 
 function validateForm() { 
-        var firetname = document.forms["Regform"]["first_name_field"]; 
-        var lastname = document.forms["Regform"]["last-name-field"]; 
+        var firstname = document.forms["Regform"]["first_name_field"]; 
+        var lastname = document.forms["Regform"]["last_name_field"]; 
         var phone = document.forms["Regform"]["phone_field"]; 
-        var email = document.forms["Regform"]["email-field"];
+        var email = document.forms["Regform"]["email_field"];
         var date = document.forms["Regform"]["date_of_birth_field"]; 
   
         if (firstname.value == "") { 
