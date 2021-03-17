@@ -4,7 +4,13 @@
 
 body
 {
-  background-color: darkgray;
+  background-color: lightblue;
+  background-image: -webkit-gradient(liner, left top, left bottom, from(lightgreen), to(lightblue));
+  background-image: -webkit-linear-gradient(top, lightgreen, lightblue);
+  background-image: -moz-linear-gradient(top, lightgreen, lightblue);
+  background-image: -ms-linear-gradient(top, lightgreen, lightblue);
+  background-image: -o-linear-gradient(top, lightgreen, lightblue);
+  background-image: linear-gradient(top, lightgreen, lightblue); 
 }
 
 h1
@@ -22,7 +28,6 @@ fieldset
   width: auto;
   padding: 5px;
   border-color: transparent;
-  background-color: lightgray;
 }
 
 label
@@ -44,7 +49,6 @@ input
   font-size: 10pt;
   padding: 12px 20px;
   border-radius: 6px;
-  background-color: #808080;
 }
 
 .submit
