@@ -26,7 +26,6 @@ h2
 {
   font-family: 'Syne Mono', monospace;
   font-size: 15pt;
-  text-align: center;
   margin: 20px;
 }
 
@@ -109,8 +108,8 @@ input
     margin: 3%;
   }
   
-   .submit
+  h2
   {
-    width: auto;
+    text-align: center;
   }
 }
