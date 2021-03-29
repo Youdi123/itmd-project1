@@ -28,3 +28,9 @@ function validateForm() {
             window.alert("Please enter your date of birth");
         } 
 }
+
+setTimeout(myFunction, 1000);
+
+function myFunction() {
+  document.getElementById("reg").innerHTML = "Congratulations on your successful registration！";
+}
