@@ -32,5 +32,5 @@ function validateForm() {
 setTimeout(myFunction, 1000);
 
 function myFunction() {
-  document.getElementById("reg").innerHTML = "Start your first registration！";
+  document.getElementById("reg").innerHTML = "Start your first registration now！";
 }
